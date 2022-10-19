@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(163, 202, 189);
+            padding: 3%;
+            border:solid black;
+        }
+        p{
+            font-weight: bold;
+        }
+        form{
+            font-weight: bold;
+        }
+        input{
+            background-color: antiquewhite;
+            font-weight: normal;
+        }
+    </style>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        Username:
+        <input type="text" name="fname" id="fname"><br><br>
+        Password:
+        <input type="password" name="password" id="password"><br>
+        <p>Easiest language according to you</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        <p>Languages known</p>
+        <input type="checkbox" id="language1" name="language1" value="Bike">
+        <label for="vehicle1">HTML</label><br>
+        <input type="checkbox" id="language2" name="language2" value="Car">
+        <label for="vehicle2">C++</label><br>
+        <input type="checkbox" id="language3" name="language3" value="Boat">
+        <label for="vehicle3">Python</label><br><br>
+    </form>
+    <button type="submit" style="color: red; font-weight: bold; border: solid 2px black;">Submit</button>
+</body>
+</html>
